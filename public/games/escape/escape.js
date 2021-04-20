@@ -161,7 +161,7 @@ window.onload = function () {
             c.fillText("Tap to play again",
                 canvas.width / 2, (canvas.height / 2) + f + 50);
             c.closePath();
-            canvas.addEventListener("click", replay);
+            setTimeout(canvas.addEventListener("click", replay),2000);
         } else if (lives == 0) {
             c.beginPath();
             c.globalAlpha = 1;

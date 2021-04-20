@@ -4,7 +4,7 @@ import {
     Switch,
     Route,
 } from "react-router-dom";
-import { Singlegame } from '../Singlegame';
+import { Singlegame } from './Singlegame';
 import { GamesList } from './GamesList';
 
 export const Games = () => {
@@ -12,10 +12,10 @@ export const Games = () => {
         <div>
             <Router>
                 <Switch>
-                    <Route path={'/games/:singlegame'}>
+                    <Route path={`/games/:singlegame/index.html`}>
                         <Singlegame />
                     </Route>
-                    <Route path={'/games'}>
+                    <Route path='/games/'>
                         <GamesList />
                     </Route>
                 </Switch>

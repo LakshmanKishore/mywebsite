@@ -15,12 +15,6 @@ window.onload = function () {
     let i;
     let c = canvas.getContext("2d");
 
-    if (isMobile) {
-        document.body.style.transform = "scale(2) translateY(25%)";
-        document.body.style.height = "100%";
-        document.body.style.overflow = "hidden";
-    }
-
     if (!isMobile) {
         canvas.height = 400;
         let lapMessage = document.createElement('div');
@@ -37,8 +31,9 @@ window.onload = function () {
         return (Math.round(num / 10) * 10);
     }
 
-    canvas.height = 500;
-    canvas.width = 400;
+    canvas.height = (Math.floor(window.innerHeight/10)/2)*10;
+    canvas.width = (Math.floor(window.innerWidth/10)/2)*10;
+    console.log(canvas.height,canvas.width);
 
     function Head(hx, hy) {
         this.hx = hx;
@@ -111,15 +106,15 @@ window.onload = function () {
             if (head.hx == tail[i].tx && head.hy == tail[i].ty) {
                 clearInterval(run);
                 c.fillStyle = "red";
-                c.font = "40px Arial";
+                c.font = "2rem Arial";
                 c.textAlign = "center";
                 c.fillText("Game Over",
                     canvas.width / 2, canvas.height / 2);
-                c.font = "20px Arial";
+                c.font = "1rem Arial";
                 c.fillText("Score",
                     canvas.width / 2 - 20, canvas.height / 2 + 30);
                 c.fillStyle = "black";
-                c.font = "30px Arial";
+                c.font = "1rem Arial";
                 c.fillText(score.innerText,
                     canvas.width / 2 + 25, canvas.height / 2 + 30);
                 replay.addEventListener("click", efreplay);
@@ -210,19 +205,27 @@ window.onload = function () {
 
         if (e.keyCode == 119) {
             // up arrow
-            efup();
+            if (a!=0&&b!=10||a==0&&b==0) {
+                efup();
+            }
         }
         else if (e.keyCode == 115) {
             // down arrow
+            if (a!=0&&b!=-10||a==0&&b==0) {
             efdown();
+            }
         }
         else if (e.keyCode == 97) {
             // left arrow
+            if (a!=10&&b!=0||a==0&&b==0) {
             efleft();
+            }
         }
         else if (e.keyCode == 100) {
             // right arrow
+            if (a!=-10&&b!=0||a==0&&b==0) {
             efright();
+            }
         }
     })
 

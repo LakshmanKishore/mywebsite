@@ -7,7 +7,7 @@ canvas {
     background-color:#beff87;
 }
 .size {
-    font-size:40px;
+    font-size:3rem;
     display: flex;
     align-items: center;
     justify-content: center;

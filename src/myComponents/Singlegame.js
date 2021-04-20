@@ -7,9 +7,9 @@ export const Singlegame = () => {
     let { singlegame } = useParams();
     return (
         <div>
-            {/* <h3>Requested Game: {singlegame}</h3> */}
-            <h3>Redirecting to</h3>
-            {window.location.href=`https://lakshman-${singlegame.toLowerCase()}.surge.sh`}
+            <h3>Redirecting to:</h3>
+            <h2>{singlegame}</h2>
+            {window.location.reload()}
         </div>
     )
 }

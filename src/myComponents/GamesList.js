@@ -41,13 +41,13 @@ export const GamesList = () => {
                 <Row>
                     {game.map(({ gameNumber, title, desc }) => {
                         return (
-                            <LinkContainer className="mx-2 mb-3" key={gameNumber} to={`/games/${title.toLowerCase()}`} style={{ width: '18rem' }}>
+                            <LinkContainer className="mx-2 mb-3" key={gameNumber} to={`/games/${title.toLowerCase()}/index.html`} style={{ width: '18rem' }}>
                                 <Card>
-                                    <Card.Img variant="top" src={`/gameImages/${title.toLowerCase()}.png`} alt="GameImage" />
+                                    <Card.Img variant="top" src={`/games/${title.toLowerCase()}/${title.toLowerCase()}.png`} alt="GameImage" />
                                     <Card.Body>
                                         <Card.Title>{title}</Card.Title>
                                         <Card.Text>{desc}</Card.Text>
-                                        <Button variant="outline-success" href={`/games/${title.toLowerCase()}`}>Play Game</Button>
+                                        <Button variant="outline-success" href={`/games/${title.toLowerCase()}/index.html`}>Play Game</Button>
                                     </Card.Body>
                                 </Card>
                             </LinkContainer>
