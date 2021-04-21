@@ -16,19 +16,18 @@ export const Slides = () => {
                 <Carousel.Item>
                     <img
                         className="d-block responsive"
-                        src="/insects1/2.jpg"
+                        src="/insects1/6.jpg"
                         alt="Second slide"
                     />
                 </Carousel.Item>
                 <Carousel.Item>
                     <img
                         className="d-block responsive"
-                        src="/insects1/3.jpg"
+                        src="/insects1/14.jpg"
                         alt="Third slide"
                     />
                 </Carousel.Item>
             </Carousel>
-            <a variant="primary" href="/insectphotography">Click here for more</a>
         </div>
     )
 }

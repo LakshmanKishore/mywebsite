@@ -31,8 +31,8 @@ window.onload = function () {
         return (Math.round(num / 10) * 10);
     }
 
-    canvas.height = (Math.floor(window.innerHeight/10)/2)*10;
-    canvas.width = (Math.floor(window.innerWidth/10)/2)*10;
+    canvas.height = ((Math.floor(window.innerHeight/10)/2)*10);
+    canvas.width = ((Math.floor(window.innerWidth/10)/2)*10)+100;
     console.log(canvas.height,canvas.width);
 
     function Head(hx, hy) {

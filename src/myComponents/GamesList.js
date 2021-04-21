@@ -11,7 +11,7 @@ export const GamesList = () => {
         {
             "gameNumber": 1,
             "title": "Tic-Tac-Toe",
-            "desc": "This was my first game and it is a 2 player game",
+            "desc": "This was my first game and it is a 2 player game.",
         },
         {
             "gameNumber": 2,
@@ -21,17 +21,22 @@ export const GamesList = () => {
         {
             "gameNumber": 3,
             "title": "SnakeGame",
-            "desc": "Play the classic mobile Snake game.Eat the food but don't hit your own tail",
+            "desc": "Play the classic mobile Snake game.Eat the food but don't hit your own tail.",
         },
         {
             "gameNumber": 4,
-            "title": "flappybird",
+            "title": "Flappybird",
             "desc": "I use circle as bird and rectangles as pipes.Dont touch the rectangles!",
         },
         {
             "gameNumber": 5,
             "title": "Escape",
-            "desc": "Move the square to top without touching the circles",
+            "desc": "Move the square to top without touching the circles.",
+        },
+        {
+            "gameNumber": 6,
+            "title": "Numberclick",
+            "desc": "This game test how fast you can click those numbers on screen.",
         }
     ]
     return (
