@@ -5,7 +5,7 @@ import '../App.css';
 
 export const Welcome = () => {
     return (
-        <div className="container ">
+        <div>
             {/* d2414b */}
             <Jumbotron fluid style={{backgroundColor:'white'}} className="mb-2 pb-3">
                 <Container>

@@ -35,7 +35,6 @@ export const Header = () => {
                             <Nav.Link href="/home">Home</Nav.Link>
                             <Nav.Link href="/insectphotography">Insectphotography</Nav.Link>
                             <Nav.Link href="/games">Games</Nav.Link>
-                            {/* <Nav.Link href="/jokes">Jokes</Nav.Link> */}
                         </Nav>
                     </Navbar.Collapse>
 
@@ -47,9 +46,6 @@ export const Header = () => {
                     <Route path="/games">
                         <Games />
                     </Route>
-                    {/* <Route path="/jokes">
-                        <p>Still under development</p>
-                    </Route> */}
                     <Route path="/">
                         <Welcome />
                         <About />
