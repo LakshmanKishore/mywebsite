@@ -7,7 +7,7 @@ export const Welcome = () => {
     return (
         <div>
             {/* d2414b */}
-            <Jumbotron fluid style={{backgroundColor:'white'}} className="mb-2 pb-3">
+            <Jumbotron fluid style={{backgroundColor:'transparent'}} className="mb-2 pb-3">
                 <Container>
                     <h1>Hi, I'm Lakshman,
                      an enthusiastic learner always looking for self improvement.</h1>

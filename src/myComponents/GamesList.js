@@ -41,7 +41,7 @@ export const GamesList = () => {
                 <Row>
                     {game.map(({ gameNumber, title, desc }) => {
                         return (
-                            <LinkContainer className="mx-2 mb-3" key={gameNumber} to={`/games/${title.toLowerCase()}/index.html`} style={{ width: '18rem' }}>
+                            <LinkContainer className="mx-2 mb-3" key={gameNumber} to={`/games/${title.toLowerCase()}/index.html`} style={{ width: '18rem',background:"rgba(255,255,255,0.5)" }}>
                                 <Card>
                                     <Card.Img variant="top" src={`/games/${title.toLowerCase()}/${title.toLowerCase()}.png`} alt="GameImage" />
                                     <Card.Body>

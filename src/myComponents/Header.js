@@ -16,17 +16,17 @@ export const Header = () => {
     return (
         <div className="container">
             <Router>
-                <Navbar collapseOnSelect sticky="top" expand="lg" bg="light" variant="light" className="mt-4 nbar pr-0">
+                <Navbar collapseOnSelect expand="lg" className="mt-4 nbar" style={{fontSize:"1.5rem"}}>
                     <Nav className="mr-auto">
                         <Navbar.Brand href="/home">
                             <img
                                 src="/favicon.ico"
                                 width="30"
                                 height="30"
-                                className="d-inline-block align-top bradius"
+                                className="d-inline-block align-top bradius mt-1"
                                 alt="logo"
                             />{'  '}
-                        Lakshman
+                        <span style={{fontSize:'1.5rem'}}>Lakshman</span>
                     </Navbar.Brand>
                     </Nav>
                     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
@@ -48,6 +48,7 @@ export const Header = () => {
                     </Route>
                     <Route path="/">
                         <Welcome />
+                        <hr />
                         <About />
                     </Route>
                 </Switch>
