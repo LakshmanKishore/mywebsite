@@ -11,9 +11,9 @@ export const Works = () => {
                 <p>I love building mini games ,
                 each game will have its own game logic which makes me learn more things.</p>
                 <p>
-                    My first game was TIC-TAC-TOE.
+                    My first game was <a href="/games">TIC-TAC-TOE</a>.
                     It was fun building it and
-                    I have also built other games like flappybird, old Nokia mobile Snakegame and much more.
+                    I have also built other games like <a href="/games">flappybird</a>, old Nokia mobile <a href="/games">Snakegame</a> and much more.
                 </p>
                 <div className="text-center">
                     <a href="/games">

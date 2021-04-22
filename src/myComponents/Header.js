@@ -18,7 +18,7 @@ export const Header = () => {
             <Router>
                 <Navbar collapseOnSelect expand="lg" className="mt-4 nbar" style={{fontSize:"1.5rem"}}>
                     <Nav className="mr-auto">
-                        <Navbar.Brand href="/home">
+                        <Navbar.Brand href="/">
                             <img
                                 src="/favicon.ico"
                                 width="30"
@@ -32,7 +32,7 @@ export const Header = () => {
                     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                     <Navbar.Collapse id="responsive-navbar-nav">
                         <Nav className="ml-auto">
-                            <Nav.Link href="/home">Home</Nav.Link>
+                            <Nav.Link href="/">Home</Nav.Link>
                             <Nav.Link href="/games">Games</Nav.Link>
                             <Nav.Link href="/insectphotography">Insectphotography</Nav.Link>
                         </Nav>
