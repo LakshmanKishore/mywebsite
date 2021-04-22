@@ -1,2 +1,2 @@
 # MyWebsite
-Visit my website [here](https://lakshman-website.vercel.app)
+Visit my website [here](https://lakshman.tech)
