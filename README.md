@@ -1,2 +1,2 @@
 # MyWebsite
-Visit my website [here](www.lakshman.tech)
+Visit my website [here](https://lakshman.tech)
