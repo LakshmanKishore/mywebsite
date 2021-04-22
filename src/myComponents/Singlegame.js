@@ -8,7 +8,7 @@ export const Singlegame = () => {
     return (
         <div>
             <h3>Redirecting to:</h3>
-            <h2>{singlegame}</h2>
+            <h2>{singlegame.toUpperCase()} Game</h2>
             {window.location.reload()}
         </div>
     )
