@@ -16,7 +16,9 @@ export const Works = () => {
                     I have also built other games like flappybird, old Nokia mobile Snakegame and much more.
                 </p>
                 <div className="text-center">
+                    <a href="/games">
                     <img src="/tictactoehome.png" alt="Tic-Tac-Toe_image" />
+                    </a>
                 </div>
                 <div className="text-center pt-2">
                     <Button variant="secondary" href="/games">More Games</Button>
@@ -24,7 +26,7 @@ export const Works = () => {
             </div>
             <div className="mt-3">
                 <h2>Insectphotography</h2>
-                <p>I have a mini garden where many insects live.</p>
+                <p>I have a mini garden where many insects come and go.</p>
                 <p>
                     When I see any insect,
                     I quickly take photo of it and

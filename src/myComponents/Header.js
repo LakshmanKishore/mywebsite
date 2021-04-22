@@ -33,8 +33,8 @@ export const Header = () => {
                     <Navbar.Collapse id="responsive-navbar-nav">
                         <Nav className="ml-auto">
                             <Nav.Link href="/home">Home</Nav.Link>
-                            <Nav.Link href="/insectphotography">Insectphotography</Nav.Link>
                             <Nav.Link href="/games">Games</Nav.Link>
+                            <Nav.Link href="/insectphotography">Insectphotography</Nav.Link>
                         </Nav>
                     </Navbar.Collapse>
 
