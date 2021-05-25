@@ -46,7 +46,7 @@ export const GamesList = () => {
                 <Row>
                     {game.map(({ gameNumber, title, desc }) => {
                         return (
-                            <LinkContainer className="mx-2 mb-3" key={gameNumber} to={`/games/${title.toLowerCase()}/index.html`} style={{ width: '18rem',background:"rgba(255,255,255,0.5)" }}>
+                            <LinkContainer className="mx-2 mb-3" key={gameNumber} to={`/games/${title.toLowerCase()}/index.html`} style={{ width: '18rem',background:"rgba(255,255,255,0.25)" }}>
                                 <Card>
                                     <Card.Img variant="top" src={`/games/${title.toLowerCase()}/${title.toLowerCase()}.png`} alt="GameImage" />
                                     <Card.Body>
@@ -63,3 +63,12 @@ export const GamesList = () => {
         </div>
     )
 }
+
+// Instructions to add new games
+
+// * Make the folder name in small_caps
+// * Make the files name in small_caps
+// * Put the image in that game folder (make size 286x286)
+// * Change the css and js files link and script in html
+// * Add the load.js file script in html
+// * Open GamesList.js and add the title and Description inside the array
