@@ -18,16 +18,20 @@ p{
     height: auto;
     max-width: 300px;
 }
+.colorwhite{
+    color: white;
+}
 body{
     background-image: url('background.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
     background-origin: border-box;
+    color: white;
 }
 @media only screen and (max-width: 450px){
     body{
-        background-image: url('background_mobile.jpg');
+        background-image: url('background_mobile1.jpg');
         background-repeat: no-repeat;
         background-attachment: fixed;
         background-size: cover;

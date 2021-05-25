@@ -6,7 +6,7 @@ import React from "react";
 
 function App() {
   return (
-    <div className="App background">
+    <div className="App colorwhite background">
       <Header />
     </div>
   );

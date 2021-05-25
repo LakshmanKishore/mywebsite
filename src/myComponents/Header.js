@@ -16,7 +16,7 @@ export const Header = () => {
     return (
         <div className="container">
             <Router>
-                <Navbar collapseOnSelect expand="lg" className="mt-4 nbar" style={{fontSize:"1.5rem"}}>
+                <Navbar collapseOnSelect variant="dark" expand="lg" className="mt-4 nbar" style={{fontSize:"1.5rem"}}>
                     <Nav className="mr-auto">
                         <Navbar.Brand href="/">
                             <img
@@ -26,7 +26,7 @@ export const Header = () => {
                                 className="d-inline-block align-top bradius mt-1"
                                 alt="logo"
                             />{'  '}
-                        <span style={{fontSize:'1.5rem'}}>Lakshman</span>
+                        <span className="colorwhite" style={{fontSize:'1.5rem'}}>Lakshman</span>
                     </Navbar.Brand>
                     </Nav>
                     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
