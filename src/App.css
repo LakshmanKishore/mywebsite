@@ -38,3 +38,10 @@ body{
         background-origin: border-box;
     }
 }
+.icons{
+    color: white;
+    font-size: 2rem;
+    margin-left:1rem;
+    margin-right:1rem;
+    margin-bottom: 1rem;
+} 
