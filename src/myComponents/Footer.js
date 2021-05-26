@@ -10,7 +10,7 @@ export const Footer = () => {
                 <p>You can find me here</p>
                 <div>
                     <a href="mailto:lakshmankishore17@gmail.com">
-                        <span className="iconify icons" data-icon="bytesize:mail" data-inline="false"></span>
+                        <span className="iconify icons" data-icon="feather:mail" data-inline="false"></span>
                     </a>
                     <a href="https://github.com/LakshmanKishore">
                         <span className="iconify icons" data-icon="akar-icons:github-fill" data-inline="false"></span>
