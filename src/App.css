@@ -38,20 +38,10 @@ body{
         background-origin: border-box;
     }
 }
-.fa{
-    font-size: 2rem;
-    font-weight: bolder;
-    color: white;
-    margin: 0 1rem;
-}
-.fa:hover {
-    color: white;
-    text-decoration: none;
-}
 .icons{
     color: white;
     font-size: 2rem;
     margin-left:1rem;
     margin-right:1rem;
-    margin-bottom: 10px;
-}
+    margin-bottom: 1rem;
+} 
