@@ -9,7 +9,7 @@ export const Footer = () => {
             <footer>
                 <p>You can find me here</p>
                 <div>
-                    <a href="https://lakshmankishore17@gmail.com">
+                    <a href="mailto:lakshmankishore17@gmail.com">
                         <span className="iconify icons" data-icon="bytesize:mail" data-inline="false"></span>
                     </a>
                     <a href="https://github.com/LakshmanKishore">
