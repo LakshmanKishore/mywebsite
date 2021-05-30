@@ -43,7 +43,7 @@ export const GamesList = () => {
         <div>
             <h1 className="text-center mt-3">My Games</h1>
             <Container className="mt-5">
-                <Row>
+                <Row className="justify-content-center">
                     {game.map(({ gameNumber, title, desc }) => {
                         return (
                             <LinkContainer className="mx-2 mb-3" key={gameNumber} to={`/games/${title.toLowerCase()}/index.html`} style={{ width: '18rem',background:"rgba(255,255,255,0.25)" }}>
