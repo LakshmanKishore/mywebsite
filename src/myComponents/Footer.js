@@ -5,7 +5,7 @@ export const Footer = () => {
     let d = new Date();
     let currentYear = d.getFullYear();
     return (
-        <div align="center" className="pb-4">
+        <div align="center" className="pb-4 footer-div">
             <footer>
                 <p>You can find me here</p>
                 <div>

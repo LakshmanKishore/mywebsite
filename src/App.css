@@ -1,47 +1,114 @@
-.bradius{
+.bradius {
     border-radius: 25%;
 }
-.welcomemessage{
+
+.welcomemessage {
     font-size: 3rem;
     text-align: center;
     font-weight: bolder;
     font-family: 'Times New Roman', Times, serif;
 }
-p{
+
+p {
     font-size: 1.25rem;
 }
-.nbar{
-    border-bottom: 2px solid grey;
+
+.nbar {
+    background-color: black;
 }
+
 .responsive {
     width: 100%;
     height: auto;
     max-width: 300px;
 }
-.colorwhite{
-    color: white;
-}
-body{
-    background-image: url('background.jpg');
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-    background-origin: border-box;
-    color: white;
-}
-@media only screen and (max-width: 450px){
-    body{
-        background-image: url('background_mobile1.jpg');
-        background-repeat: no-repeat;
-        background-attachment: fixed;
-        background-size: cover;
-        background-origin: border-box;
-    }
-}
-.icons{
+
+.icons {
     color: white;
     font-size: 2rem;
-    margin-left:1rem;
-    margin-right:1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
     margin-bottom: 1rem;
-} 
+}
+
+.footer-div {
+    background-color: black;
+    color: white;
+}
+
+.welcomeText {
+    text-align: center;
+    margin: 5rem 0 2rem 0;
+}
+
+.welcomeDiv {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background: black;
+    color: white;
+    flex-direction: column;
+}
+
+.studentImage {
+    width: 200px;
+}
+
+.projectImage {
+    width: 100%;
+    min-width: 300px;
+}
+
+.bg-grey {
+    background-color: rgba(237, 237, 237);
+}
+
+.responsiveText {
+    font-size: 3rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+@media screen and (max-width: 600px)  {
+    .responsiveText {
+        font-size: 2rem;
+    }
+}
+
+@media screen and (max-width: 350px)  {
+    .responsiveText {
+        font-size: 1.5rem;
+    }
+}
+
+.responsiveInsectText {
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+@media screen and (max-width: 600px)  {
+    .responsiveInsectText {
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width: 430px)  {
+    .responsiveInsectText {
+        font-size: 25px;
+    }
+}
+
+@media screen and (max-width: 360px)  {
+    .responsiveInsectText {
+        font-size: 20px;
+    }
+}
+
+.cardStyle {
+    width: 18rem;
+    background: rgba(255,255,255,0.25);
+}
+.cardImage {
+    height: 17rem;
+}

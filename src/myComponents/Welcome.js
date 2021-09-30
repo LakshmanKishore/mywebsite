@@ -1,22 +1,16 @@
 import React from 'react'
-import Jumbotron from "react-bootstrap/Jumbotron"
-import Container from "react-bootstrap/Container"
+import { Image } from 'react-bootstrap';
 import '../App.css';
 
 export const Welcome = () => {
     return (
-        <div>
-            {/* d2414b */}
-            <Jumbotron fluid style={{backgroundColor:'transparent'}} className="mb-2 pb-3">
-                <Container>
-                    <h1>Hi, I'm Lakshman,
-                     an enthusiastic learner always looking for self improvement.</h1>
-                    <p>
-                        Welcome to my website.
-                        This was created to showcase some of my mini games and Insectphotography.
-                    </p>
-                </Container>
-            </Jumbotron>
+        <div className="welcomeDiv">
+            <div className="welcomeText" >
+                <Image className="studentImage" src="/student-laptop.png" />
+                <h2> Hi, I'm Lakshman </h2>
+                <h2> Welcome to my Portfolio! </h2>
+                <br />
+            </div>
         </div>
     )
 }
