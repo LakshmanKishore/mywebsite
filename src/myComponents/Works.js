@@ -4,27 +4,33 @@ import { Slides } from './Slides'
 
 export const Works = () => {
     return (
-        <div className="mt-4">
-            <div align="center" className="container">
-                <div className="responsiveText">
-                    -<span className="iconify" data-icon="ant-design:star-outlined"></span>-
-                    My Works
-                    -<span className="iconify" data-icon="ant-design:star-outlined"></span>-
-                </div>
-            </div>
+        <div>
+            <div className="bg-black1">
             <br />
+                <div align="center" className="container">
+                    <div className="responsiveText">
+                        -<span className="iconify" data-icon="ant-design:star-outlined"></span>-
+                        My Works
+                        -<span className="iconify" data-icon="ant-design:star-outlined"></span>-
+                    </div>
+                </div>
+            <br />
+            </div>
 
-            <div className="py-3 bg-grey">
-                <div className="container">
+            <div className="bg-black2">
+                <div className="container py-4">
                     <h2>Projects</h2>
-                    <div className="mt-3 d-md-flex d-sm-block flex-row-reverse">
+                    <div className="d-md-flex d-sm-block flex-row-reverse">
                         <div className="ml-3">
                             <p>
                                 I am passionate about web development and Machine Learning.
                                 I have built some mini projects based on web and ML.
-                                I have posted all my mini projects on Github and hosted most of the projects live.  
+                                I have posted all my mini projects on Github and hosted most of the projects live.
                                 Click the below button to see more of my projects.
                             </p>
+                            <div className="d-flex justify-content-center justify-content-md-start pb-2">
+                                <Button variant="secondary" href="/projects">More Projects</Button>
+                            </div>
                         </div>
                         <div>
                             <a href="/projects">
@@ -33,13 +39,10 @@ export const Works = () => {
                         </div>
                     </div>
                 </div>
-                <div className="text-center pt-2">
-                    <Button variant="secondary" href="/projects">More Projects</Button>
-                </div>
             </div>
 
-            <div className="py-3">
-                <div className="container">
+            <div className="py-3 bg-black1">
+                <div className="container py-4">
                     <div className="mt-3 d-sm-block d-lg-flex d-xl-flex d-md-flex">
                         <div>
                             <h2>Games</h2>
@@ -49,9 +52,12 @@ export const Works = () => {
                                 My first game was TIC-TAC-TOE.
                                 It was fun building it and
                                 I have also built other games like flappybird,
-                                old Nokia mobile Snakegame and much more. 
+                                old Nokia mobile Snakegame and much more.
                                 Click the below button to see more of my games.
                             </p>
+                            <div className="d-flex justify-content-center justify-content-md-start pb-2">
+                                <Button variant="secondary" href="/games">More Games</Button>
+                            </div>
                         </div>
                         <div>
                             <div className="text-center">
@@ -62,13 +68,10 @@ export const Works = () => {
                         </div>
                     </div>
                 </div>
-                <div className="text-center pt-2">
-                    <Button variant="secondary" href="/games">More Games</Button>
-                </div>
             </div>
 
-            <div className="py-3 bg-grey">
-                <div className="container">
+            <div className="py-3 bg-black2">
+                <div className="container py-4">
                     <h2>Insectphotography</h2>
                     <div className="mt-3 d-md-flex d-sm-block flex-row-reverse">
                         <div className="mr-auto p-2">
@@ -80,14 +83,14 @@ export const Works = () => {
                                 I have collected more than 50 different types of insect photos.
                                 Click the below button to see some of my photos.
                             </p>
+                            <div className="d-flex justify-content-center justify-content-md-start pb-2">
+                                <Button variant="secondary" href="/insectphotography">More Insect Photos</Button>
+                            </div>
                         </div>
                         <div>
                             <Slides />
                         </div>
                     </div>
-                </div>
-                <div className="text-center pt-2 ">
-                    <Button variant="secondary" href="/insectphotography">More Insect Photos</Button>
                 </div>
             </div>
         </div>

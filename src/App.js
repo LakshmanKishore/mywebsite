@@ -31,11 +31,9 @@ function App() {
             <Games />
           </Route>
           <Route path="/projects">
-            <div className="py-2"/>
             <Projects />
           </Route>
           <Route path="/">
-            <div className="py-1"/>
             <Welcome />
             <About />
           </Route>

@@ -65,29 +65,29 @@ export const GamesList = () => {
         }
     ]
     return (
-        <div>
+        <div className="pt-5 bg-black2">
             <div className="responsiveText">
                     -<span className="iconify" data-icon="ant-design:star-outlined"></span>-
                     My Games
                     -<span className="iconify" data-icon="ant-design:star-outlined"></span>-
                 </div>
-            <Container className="mt-5">
+            <Container className="mt-3">
                 <Row className="justify-content-center">
                     {games.map(({ gameNumber, title, github, live, image, desc }) => {
                         return (
-                            <Card className="mx-2 mb-3 cardStyle" key={gameNumber}>
+                            <Card bg="dark" className="mx-2 mb-3 cardStyle" key={gameNumber}>
                                 <Card.Img variant="top" src={image} alt="GameImage" />
                                 <Card.Body>
                                     <Card.Title>{title}</Card.Title>
                                     <Card.Text>{desc}</Card.Text>
                                 </Card.Body>
                                 <Card.Footer>
-                                        <Button variant="outline-dark" target="_blank" href={github} >
+                                        <Button variant="outline-light" target="_blank" href={github} >
                                             <span className="iconify" data-icon="bi:github"></span> {" "}
                                             Github
                                         </Button>
                                         {"   "}
-                                        <Button variant="outline-dark" target="_blank" href={live} >
+                                        <Button variant="outline-light" target="_blank" href={live} >
                                             <span className="iconify" data-icon="fluent:live-20-filled"></span> {" "}
                                             Play Game
                                         </Button>

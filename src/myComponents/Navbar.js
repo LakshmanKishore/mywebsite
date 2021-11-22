@@ -5,9 +5,9 @@ import "../App.css";
 
 export const NavbarComponent = () => {
     return (
-        <div className="pb-5">
+        <div>
             <Navbar fixed="top" collapseOnSelect variant="dark" expand="lg" className="nbar" style={{ fontSize: "1.5rem" }}>
-                <Nav className="mr-auto ml-2">
+                <Nav className="ml-2">
                     <Navbar.Brand href="/">
                         <img
                             src="/favicon.ico"
@@ -16,16 +16,16 @@ export const NavbarComponent = () => {
                             className="d-inline-block align-top bradius mt-1"
                             alt="logo"
                         />{'  '}
-                        <span className="colorwhite" style={{ fontSize: '1.5rem' }}>Lakshman</span>
+                        <span className="colorwhite" style={{ fontSize: '1.5rem'}}>Lakshman</span>
                     </Navbar.Brand>
                 </Nav>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse id="responsive-navbar-nav">
-                    <Nav className="ml-auto mr-4">
-                        <Nav.Link href="/">Home</Nav.Link>
-                        <Nav.Link href="/projects">Projects</Nav.Link>
-                        <Nav.Link href="/games">Games</Nav.Link>
-                        <Nav.Link href="/insectphotography">Insectphotography</Nav.Link>
+                    <Nav className="mr-4">
+                        <Nav.Link style={{fontSize:"0.8em"}} href="/">Home</Nav.Link>
+                        <Nav.Link style={{fontSize:"0.8em"}} href="/projects">Projects</Nav.Link>
+                        <Nav.Link style={{fontSize:"0.8em"}} href="/games">Games</Nav.Link>
+                        <Nav.Link style={{fontSize:"0.8em"}} href="/insectphotography">Insectphotography</Nav.Link>
                     </Nav>
                 </Navbar.Collapse>
             </Navbar>
