@@ -51,7 +51,7 @@ export const WebML = () => {
     return (
         <div className="container">
             <Container className="mt-4">
-                <h3 align="center"> Web + Machine Learning projects </h3>
+                <h4 align="center" style={{opacity:"0.7"}}> Web + Machine Learning projects </h4>
                 <Row className="justify-content-center">
                     {projects.map(({ projectNumber, title, github, live, image, desc }) => {
                         return (

@@ -9,36 +9,36 @@ import {
   Switch,
   Route,
 } from "react-router-dom";
-import { About } from './myComponents/About';
 import { Games } from './myComponents/Games';
 import { Insect } from './myComponents/Insect';
-import { Welcome } from "./myComponents/Welcome";
 import { Projects } from "./myComponents/Projects";
+import { Leftbar } from "./myComponents/Leftbar";
+import { Rightbar } from "./myComponents/Rightbar";
+import { HomePage } from "./myComponents/HomePage";
 
 
 function App() {
   return (
-    <div className="App colorwhite background">
+    <div className="App bg-black">
       <Header />
-      <Router>
-        <Switch>
-          <Route path="/insectphotography">
-            <div className="py-2"/>
-            <Insect />
-          </Route>
-          <Route path="/games">
-            <div className="py-2"/>
-            <Games />
-          </Route>
-          <Route path="/projects">
-            <Projects />
-          </Route>
-          <Route path="/">
-            <Welcome />
-            <About />
-          </Route>
-        </Switch>
-      </Router>
+        <Leftbar />
+        <Rightbar />
+        <Router>
+          <Switch>
+            <Route path="/projects">
+              <Projects />
+            </Route>
+            <Route path="/games">
+              <Games />
+            </Route>
+            <Route path="/insectphotography">
+              <Insect />
+            </Route>
+            <Route path="/">
+              <HomePage />
+            </Route>
+          </Switch>
+        </Router>
       <Footer />
     </div>
   );

@@ -2,16 +2,13 @@
     border-radius: 25%;
 }
 
-#tsparticles {
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    z-index: -1;
+div {
+    color: white;
 }
 
-.tsparticles-canvas-el {
-    position: absolute !important;
-    z-index: -1 !important;
+p {
+    font-size: clamp(1em, 2.8vh, 4em);
+    opacity: 0.8;
 }
 
 .welcomemessage {
@@ -21,27 +18,28 @@
     font-family: 'Times New Roman', Times, serif;
 }
 
-p {
-    font-size: 1.25rem;
+h2 {
+    color: #248DFF;
 }
 
 .nbar {
     background-color: black;
+    font-size: 1.5rem;
+    padding: 0px 50px !important;
 }
 
 .responsive {
     width: 100%;
     height: auto;
-    max-width: 300px;
+    max-width: 350px;
 }
 
 .icons {
     color: white;
-    font-size: 2rem;
-    margin-left: 1rem;
-    margin-right: 1rem;
-    margin-bottom: 1rem;
+    font-size: 1.5rem;
+    margin: 10px;
 }
+
 
 .footer-div {
     background-color: black;
@@ -72,48 +70,6 @@ p {
     background-color: rgba(237, 237, 237);
 }
 
-.responsiveText {
-    font-size: 3rem;
-    font-weight: bold;
-    text-align: center;
-}
-
-@media screen and (max-width: 600px) {
-    .responsiveText {
-        font-size: 2rem;
-    }
-}
-
-@media screen and (max-width: 350px) {
-    .responsiveText {
-        font-size: 1.5rem;
-    }
-}
-
-.responsiveInsectText {
-    font-size: 2rem;
-    font-weight: bold;
-    text-align: center;
-}
-
-@media screen and (max-width: 600px) {
-    .responsiveInsectText {
-        font-size: 30px;
-    }
-}
-
-@media screen and (max-width: 430px) {
-    .responsiveInsectText {
-        font-size: 25px;
-    }
-}
-
-@media screen and (max-width: 360px) {
-    .responsiveInsectText {
-        font-size: 20px;
-    }
-}
-
 .cardStyle {
     width: 18rem;
     background: rgba(255, 255, 255, 0.25);
@@ -124,19 +80,212 @@ p {
 }
 
 .homePage {
-    height: 100vh;
+    min-height: 100vh;
     display: flex;
     flex-direction: column;
+    padding: 0px 150px;
 }
 
-div {
+.bg-black {
+    background-color: black;
+}
+
+.big-heading {
+    font-size: clamp(40px, 8vw, 80px);
+}
+
+.big-sub-heading {
+    font-size: clamp(30px, 5vw, 60px);
+}
+
+.welcomePara {
+    font-size: clamp(15px, 3vh, 5rem);
+    max-width: 530px;
+    color: gray;
+}
+
+.customhero {
+    min-width: 300px;
+    max-height: clamp(150px, 250px, 400px);
+}
+
+.heading {
+    display: flex;
+    align-items: center;
+    font-size: clamp(2em, 6vh, 8em);
+}
+
+.heading span {
+    content: "";
+    margin-left: 10px;
+    flex: 0.75 1 auto;
+    border-top: 1px solid #007bffb5;
+}
+
+.aboutmeImage {
+    min-height: 200px;
+    max-width: 300px;
+}
+
+.aboutmePara p b {
+    color: #6DB3FF;
+}
+
+.leftbar {
+    width: 40px;
+    position: fixed;
+    bottom: 0px;
+    left: 40px;
+    right: auto;
+}
+
+.leftbarul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    opacity: 0.7;
+}
+
+.leftbarul li {
+    margin: 5px;
+}
+
+a {
+    display: inline-block;
+    position: relative;
+    transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+
+.leftbarul li a:hover {
+    transform: translateY(-3px);
+}
+
+.icons:hover {
+    color: #007bff;
+}
+
+.leftbarul:last-child {
+    margin-bottom: 20px;
+}
+
+.leftbar::after {
+    content: "";
+    display: block;
+    width: 1px;
+    height: 100px;
+    margin: 0px auto;
+    background-color: gray;
+}
+
+.rightbar {
+    position: fixed;
+    bottom: 0;
+    left: auto;
+    right: 40px;
+}
+
+.rightbar::after {
+    content: "";
+    display: block;
+    width: 1px;
+    height: 100px;
+    margin: 0px auto;
+    background-color: gray;
+}
+
+.rightbardiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    opacity: 0.7;
+}
+
+.rightbardiv a {
+    margin: 20px auto;
+    padding: 10px;
+    writing-mode: vertical-rl;
     color: white;
+    letter-spacing: 0.1em;
+    transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
 }
 
-.bg-black1 {
-    background-color: #101010;
+.rightbardiv a:hover {
+    color: #007bff;
+    text-decoration: none;
 }
 
-.bg-black2 {
-    background-color: #191919;
+.rightbardiv:hover {
+    transform: translateY(-3px);
 }
+
+.getInTouch {
+    font-size: clamp(30px, 7vh, 60px);
+    font-weight: bold;
+    color: #248DFF;
+    opacity: 0.9;
+}
+
+.helloButton {
+    font-family: 'Courier New', Courier, monospace;
+    color: #007bff;
+    font-size: larger;
+    padding: 1.25rem 1.75rem;
+    background-color: transparent;
+    border-radius: 10px;
+    border: 1px solid #007bff;
+    font-weight: 700;
+    text-decoration: none !important;
+}
+
+.helloButton:hover {
+    background-color: rgba(100, 255, 218, 0.1);
+}
+
+.routeHeading {
+    color: #007bff;
+    text-align: center;
+    font-size: clamp(20px, 2rem, 70px);
+    font-weight: bolder;
+}
+
+@media screen and (max-width: 1080px) {
+    .homePage {
+        padding: 0px 100px;
+    }
+
+    .leftbar {
+        left: 20px;
+        right: auto;
+    }
+
+    .rightbar {
+        right: 20px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .homePage {
+        padding: 0px 50px;
+    }
+
+    .nbar {
+        padding: 0px 30px !important;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .homePage {
+        padding: 0px 25px;
+    }
+
+    .nbar {
+        padding: 0px 20px !important;
+    }
+}
+
+/* #007BFF,#0069DA,#0057B6,#004691,#00346D,#002348,#001124 */
+/* #007BFF,#248DFF,#48A0FF,#6DB3FF,#91C6FF,#B6D9FF,#DAECFF */

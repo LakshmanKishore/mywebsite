@@ -65,12 +65,10 @@ export const GamesList = () => {
         }
     ]
     return (
-        <div className="pt-5 bg-black2">
-            <div className="responsiveText">
-                    -<span className="iconify" data-icon="ant-design:star-outlined"></span>-
-                    My Games
-                    -<span className="iconify" data-icon="ant-design:star-outlined"></span>-
-                </div>
+        <div className="bg-black2">
+            <div className="routeHeading">
+                My Games
+            </div>
             <Container className="mt-3">
                 <Row className="justify-content-center">
                     {games.map(({ gameNumber, title, github, live, image, desc }) => {
@@ -82,15 +80,15 @@ export const GamesList = () => {
                                     <Card.Text>{desc}</Card.Text>
                                 </Card.Body>
                                 <Card.Footer>
-                                        <Button variant="outline-light" target="_blank" href={github} >
-                                            <span className="iconify" data-icon="bi:github"></span> {" "}
-                                            Github
-                                        </Button>
-                                        {"   "}
-                                        <Button variant="outline-light" target="_blank" href={live} >
-                                            <span className="iconify" data-icon="fluent:live-20-filled"></span> {" "}
-                                            Play Game
-                                        </Button>
+                                    <Button variant="outline-light" target="_blank" href={github} >
+                                        <span className="iconify" data-icon="bi:github"></span> {" "}
+                                        Github
+                                    </Button>
+                                    {"   "}
+                                    <Button variant="outline-light" target="_blank" href={live} >
+                                        <span className="iconify" data-icon="fluent:live-20-filled"></span> {" "}
+                                        Play Game
+                                    </Button>
                                 </Card.Footer>
                             </Card>
                         )

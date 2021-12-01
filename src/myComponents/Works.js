@@ -4,22 +4,21 @@ import { Slides } from './Slides'
 
 export const Works = () => {
     return (
-        <div>
-            <div className="bg-black1">
-            <br />
-                <div align="center" className="container">
-                    <div className="responsiveText">
-                        -<span className="iconify" data-icon="ant-design:star-outlined"></span>-
+        <div className="homePage">
+            <div className="bg-black">
+                <br />
+                <div align="center" className="">
+                    <h1 className="heading">
                         My Works
-                        -<span className="iconify" data-icon="ant-design:star-outlined"></span>-
-                    </div>
+                        <span></span>
+                    </h1>
                 </div>
-            <br />
+                <br />
             </div>
 
-            <div className="bg-black2">
-                <div className="container py-4">
-                    <h2>Projects</h2>
+            <div className="bg-black">
+                <div className=" py-4">
+                    <h2 className="mb-3">Projects</h2>
                     <div className="d-md-flex d-sm-block flex-row-reverse">
                         <div className="ml-3">
                             <p>
@@ -29,7 +28,7 @@ export const Works = () => {
                                 Click the below button to see more of my projects.
                             </p>
                             <div className="d-flex justify-content-center justify-content-md-start pb-2">
-                                <Button variant="secondary" href="/projects">More Projects</Button>
+                                <Button variant="outline-light" href="/projects">More Projects</Button>
                             </div>
                         </div>
                         <div>
@@ -41,11 +40,11 @@ export const Works = () => {
                 </div>
             </div>
 
-            <div className="py-3 bg-black1">
-                <div className="container py-4">
+            <div className="py-3 bg-black">
+                <div className=" py-4">
                     <div className="mt-3 d-sm-block d-lg-flex d-xl-flex d-md-flex">
                         <div>
-                            <h2>Games</h2>
+                            <h2 className="mb-3">Games</h2>
                             <p>I love building mini games ,
                                 each game will have its own game logic which makes me learn more things.</p>
                             <p>
@@ -56,7 +55,7 @@ export const Works = () => {
                                 Click the below button to see more of my games.
                             </p>
                             <div className="d-flex justify-content-center justify-content-md-start pb-2">
-                                <Button variant="secondary" href="/games">More Games</Button>
+                                <Button variant="outline-light" href="/games">More Games</Button>
                             </div>
                         </div>
                         <div>
@@ -70,9 +69,9 @@ export const Works = () => {
                 </div>
             </div>
 
-            <div className="py-3 bg-black2">
-                <div className="container py-4">
-                    <h2>Insectphotography</h2>
+            <div className="py-3 bg-black">
+                <div className=" py-4">
+                    <h2 className="mb-3">Insectphotography</h2>
                     <div className="mt-3 d-md-flex d-sm-block flex-row-reverse">
                         <div className="mr-auto p-2">
                             <p>
@@ -84,7 +83,7 @@ export const Works = () => {
                                 Click the below button to see some of my photos.
                             </p>
                             <div className="d-flex justify-content-center justify-content-md-start pb-2">
-                                <Button variant="secondary" href="/insectphotography">More Insect Photos</Button>
+                                <Button variant="outline-light" href="/insectphotography">More Insect Photos</Button>
                             </div>
                         </div>
                         <div>

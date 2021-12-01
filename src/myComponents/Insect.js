@@ -10,16 +10,15 @@ export const Insect = () => {
         a[index] = index + 1;
     }
     return (
-        <div className="pt-5 bg-black2">
+        <div className="bg-black2">
             <div className="container">
-                <div className="responsiveInsectText">
-                    <h2>
+                <div className="routeHeading">
                     Insectphotography
-                    </h2>
                 </div>
                 <p className="mb-0 mt-4">Welcome to my insectphotography page.</p>
-                <p className="mb-0">I use Realme 3 pro mobile to take insect photos.Its 10x zoom makes the insects big!</p>
-                <p className="mb-0">Here are some of the photos</p>
+                <p className="mb-0">I use Realme 3 pro mobile to take insect photos. Its 10x zoom makes the insects big!</p>
+                <p className="mb-0">Here are some of the photos.</p>
+                <br />
                 <Container>
                     <Row className="justify-content-center">
                         {a.map((index) => {

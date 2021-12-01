@@ -5,12 +5,10 @@ import { WebML } from './projectsComponents/WebML';
 
 export const Projects = () => {
     return (
-        <div className="pt-5 bg-black2">
-            <div className="pt-2 ">
-                <div className="responsiveText">
-                    -<span className="iconify" data-icon="ant-design:star-outlined"></span>-
+        <div className="bg-black">
+            <div className="pt-1">
+                <div className="routeHeading">
                     Projects
-                    -<span className="iconify" data-icon="ant-design:star-outlined"></span>-
                 </div>
                 <WebML />
                 <hr style={{ width: "90%" }} />

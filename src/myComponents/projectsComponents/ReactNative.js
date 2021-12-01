@@ -25,7 +25,7 @@ export const ReactNative = () => {
     return (
         <div className="container">
             <Container className="mt-4">
-                <h3 className="mb-3" align="center"> React Native Apps </h3>
+                <h4 align="center" style={{opacity:"0.7"}}> React Native Apps </h4>
                 <Row className="justify-content-center">
                     {projects.map(({ projectNumber, title, github, image, desc }) => {
                         return (
