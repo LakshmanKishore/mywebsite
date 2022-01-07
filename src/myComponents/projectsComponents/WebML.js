@@ -33,14 +33,6 @@ export const WebML = () => {
         },
         {
             "projectNumber": 3,
-            "title": "Full battery Prediction",
-            "github": "https://github.com/LakshmanKishore/fullBatteryPrediction",
-            "live": "https://lakshman-loanprediction.herokuapp.com/",
-            "image": "https://github.com/LakshmanKishore/fullBatteryPrediction/blob/main/batteryImage.png?raw=true",
-            "desc": "This app was made to understand the concept of Linear Regression(Ordinary Least Square) algorithm.",
-        },
-        {
-            "projectNumber": 4,
             "title": "Todo App",
             "github": "https://github.com/LakshmanKishore/todoApp",
             "live": "https://lakshman-todoapp.surge.sh/",
