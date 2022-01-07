@@ -5,8 +5,8 @@ import "../App.css";
 
 export const NavbarComponent = () => {
     return (
-        <div>
-            <Navbar collapseOnSelect variant="dark" expand="lg" className="nbar py-4">
+        <div className="py-4">
+            <Navbar collapseOnSelect variant="dark" expand="lg" className="nbar">
                 <Nav>
                     <Navbar.Brand href="/">
                         <img
