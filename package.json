@@ -23,7 +23,7 @@
   },
   "git": {
     "scripts": {
-      "pre-push": "cp index.html 200.html && surge --project ./build --domain lakshman.surge.sh"
+      "pre-push": "npm run build && cd build && cp index.html 200.html && surge --project ./ --domain lakshman.surge.sh"
     }
   },
   "scripts": {
