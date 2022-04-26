@@ -1,0 +1,4 @@
+This is a Brave Rewards publisher verification file.
+
+Domain: lakshman.vercel.app
+Token: 254dbd263f8e21c9aa04ce0e5829a35da85392d67a6294a1c45f76e298912a8b
