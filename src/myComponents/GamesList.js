@@ -62,6 +62,14 @@ export const GamesList = () => {
             "live": "https://lakshman-numberclick.surge.sh/",
             "image": "https://github.com/LakshmanKishore/numberclick/blob/main/numberclick.png?raw=true",
             "desc": "This game test how fast you can click those numbers on screen.",
+        },
+        {
+            "gameNumber": 7,
+            "title": "Ninja Jump",
+            "github": "https://github.com/LakshmanKishore/ninjaJump",
+            "live": "https://lakshman-ninjajump.surge.sh/",
+            "image": "https://github.com/LakshmanKishore/ninjaJump/blob/main/favicon.png?raw=true",
+            "desc": "A simple clone of Ninja Jump game that was built under 3 hours",
         }
     ]
     return (
