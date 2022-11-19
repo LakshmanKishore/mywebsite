@@ -70,6 +70,14 @@ export const GamesList = () => {
             "live": "https://lakshman-ninjajump.surge.sh/",
             "image": "https://github.com/LakshmanKishore/ninjaJump/blob/main/favicon.png?raw=true",
             "desc": "A simple clone of Ninja Jump game that was built under 3 hours",
+        },
+        {
+            "gameNumber": 8,
+            "title": "Pong",
+            "github": "https://github.com/LakshmanKishore/pong",
+            "live": "https://lakshman-pong.surge.sh/",
+            "image": "https://github.com/LakshmanKishore/pong/blob/main/favicon.png?raw=true",
+            "desc": "A simple clone of the famous game called Pong, that was built under 4 hours",
         }
     ]
     return (
