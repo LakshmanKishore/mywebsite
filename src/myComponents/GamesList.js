@@ -78,6 +78,14 @@ export const GamesList = () => {
             "live": "https://lakshman-pong.surge.sh/",
             "image": "https://github.com/LakshmanKishore/pong/blob/main/favicon.png?raw=true",
             "desc": "A simple clone of the famous game called Pong, that was built under 4 hours",
+        },
+        {
+            "gameNumber": 9,
+            "title": "Lost Bird",
+            "github": "https://github.com/LakshmanKishore/lostBird",
+            "live": "https://lakshman-lostbird.surge.sh/",
+            "image": "https://github.com/LakshmanKishore/lostBird/blob/main/favicon.png?raw=true",
+            "desc": "A clone of lumosity's (lost in migration) brain game.",
         }
     ]
     return (
