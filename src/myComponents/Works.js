@@ -61,7 +61,7 @@ export const Works = () => {
                         <div>
                             <div className="text-center">
                                 <a href="/games">
-                                    <img src="/tictactoehome.png" style={{ borderRadius: "10%" }} alt="Tic-Tac-Toe_image" />
+                                    <Image className='ml-2 mt-5' src="/tictactoehome.png" style={{ borderRadius: "10%" }} />
                                 </a>
                             </div>
                         </div>
@@ -88,6 +88,28 @@ export const Works = () => {
                         </div>
                         <div>
                             <Slides />
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div className="py-3 bg-black">
+                <div className=" py-4">
+                    <div className="mt-3 d-sm-block d-lg-flex d-xl-flex d-md-flex">
+                        <div>
+                            <h2 className="mb-3">Certifications</h2>
+                            <p>I did some NPTEL certifications with my engineering course to enhance knowledge in various fields.</p>
+                            <p>I also got a Data Science Domain Certificate from NPTEL for completing courses in that particular field.</p>
+                            <div className="d-flex justify-content-center justify-content-md-start pb-2">
+                                <Button variant="outline-light" href="/certifications">View Certificates</Button>
+                            </div>
+                        </div>
+                        <div>
+                            <div className="text-center">
+                                <a href="/games">
+                                    <Image className='ml-2 mt-5' src="/certificate.png" alt="Certificate Image" />
+                                </a>
+                            </div>
                         </div>
                     </div>
                 </div>

@@ -4,7 +4,7 @@ import '../App.css';
 
 export const Slides = () => {
     return (
-        <div align="center">
+        <div align="center" style={{minWidth:"250px"}}>
             <Carousel className="responsive" fade interval={2500} >
                 <Carousel.Item>
                     <a href="/insectphotography">

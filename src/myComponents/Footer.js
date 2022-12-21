@@ -22,6 +22,9 @@ export const Footer = () => {
                         <a href="https://www.codewars.com/users/Lakshman321">
                             <span className="iconify icons" data-icon="cib:codewars" data-inline="false"></span>
                         </a>
+                        <a href="https://leetcode.com/Lakshman_kishore/">
+                            <span className="iconify icons" data-icon="cib:leetcode" data-inline="false"></span>
+                        </a>
                         <a href="https://www.linkedin.com/in/lakshman-kishore-s-v-43a980224">
                             <span className="iconify icons" data-icon="eva:linkedin-outline" data-inline="false"></span>
                         </a>

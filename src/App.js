@@ -15,7 +15,7 @@ import { Projects } from "./myComponents/Projects";
 import { Leftbar } from "./myComponents/Leftbar";
 import { Rightbar } from "./myComponents/Rightbar";
 import { HomePage } from "./myComponents/HomePage";
-
+import { Certifications } from "./myComponents/Certifications";
 
 function App() {
   return (
@@ -33,6 +33,9 @@ function App() {
             </Route>
             <Route path="/insectphotography">
               <Insect />
+            </Route>
+            <Route path="/certifications">
+              <Certifications />
             </Route>
             <Route path="/">
               <HomePage />

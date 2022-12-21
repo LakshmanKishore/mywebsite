@@ -25,6 +25,7 @@ export const NavbarComponent = () => {
                         <Nav.Link style={{ fontSize: "0.8em" }} href="/">Home</Nav.Link>
                         <Nav.Link style={{ fontSize: "0.8em" }} href="/projects">Projects</Nav.Link>
                         <Nav.Link style={{ fontSize: "0.8em" }} href="/games">Games</Nav.Link>
+                        <Nav.Link style={{ fontSize: "0.8em" }} href="/certifications">Certifications</Nav.Link>
                         <Nav.Link style={{ fontSize: "0.8em" }} href="/insectphotography">Insectphotography</Nav.Link>
                     </Nav>
                 </Navbar.Collapse>
