@@ -106,7 +106,7 @@ export const Works = () => {
                         </div>
                         <div>
                             <div className="text-center">
-                                <a href="/games">
+                                <a href="/certifications">
                                     <Image className='ml-2 mt-5' src="/certificate.png" alt="Certificate Image" />
                                 </a>
                             </div>
