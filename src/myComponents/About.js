@@ -14,18 +14,11 @@ export const About = () => {
                     </div>
                     <div className="d-md-flex">
                         <div className="aboutmePara">
-                            <p>Hello, My name is Lakshman.</p>
                             <p>
-                                I'm an Undergraduate Student in Information Science Engineering(same as CS) from India.
-                                I was introduced to programming in my Pre-University.
-                                My first ever programming Language was C++.
-                                I had Studied C++ for almost 2 years in my Pre-University.
+                                I am a software engineer with a degree in Information Science and Engineering. I have experience working on a variety of projects, including web applications and machine learning. I am proficient in a variety of programming languages, including Python, JavaScript and Java. I am also familiar with a variety of technologies, including machine learning, data science, and web development.
                             </p>
                             <p>
-                                I'm more familiar with Javascript, Python and Java programming Languages.
-                                I have an intermediate level knowledge in <b> Web Development </b> and <b>Machine Learning</b>.
-                                I learnt React and React Native after my Web Development course.
-                                I learnt Flask and used it to link the ML models into the Web.
+                                I am passionate about software engineering and I love to build innovative solutions. I am always looking for new challenges and I am never afraid to learn new things. I am also a team player and I am always willing to help others.
                             </p>
 
                             <p>

@@ -22,10 +22,7 @@ export const Works = () => {
                     <div className="d-md-flex d-sm-block flex-row-reverse">
                         <div className="ml-3">
                             <p>
-                                I am passionate about web development and Machine Learning.
-                                I have built some mini projects based on web and ML.
-                                I have posted all my mini projects on Github and hosted most of the projects live.
-                                Click the below button to see more of my projects.
+                                I am passionate about web development and machine learning. I have built some mini projects based on web and ML, which I have posted all on Github and hosted most of the projects live. These projects have helped me learn new things and grow as a software engineer.
                             </p>
                             <div className="d-flex justify-content-center justify-content-md-start pb-2">
                                 <Button variant="outline-light" href="/projects">More Projects</Button>
@@ -45,14 +42,8 @@ export const Works = () => {
                     <div className="mt-3 d-sm-block d-lg-flex d-xl-flex d-md-flex">
                         <div>
                             <h2 className="mb-3">Games</h2>
-                            <p>I love building mini games ,
-                                each game will have its own game logic which makes me learn more things.</p>
                             <p>
-                                My first game was TIC-TAC-TOE.
-                                It was fun building it and
-                                I have also built other games like flappybird,
-                                old Nokia mobile Snakegame and much more.
-                                Click the below button to see more of my games.
+                                I love building mini games, each with its own unique game logic. This helps me learn new things and improve my coding skills. My first game was TIC-TAC-TOE, and I have also built other games like flappybird, the old Nokia mobile Snakegame, and much more. You can click the button below to check out more of my games!
                             </p>
                             <div className="d-flex justify-content-center justify-content-md-start pb-2">
                                 <Button variant="outline-light" href="/games">More Games</Button>
@@ -75,12 +66,7 @@ export const Works = () => {
                     <div className="mt-3 d-md-flex d-sm-block flex-row-reverse">
                         <div className="mr-auto p-2">
                             <p>
-                                I have a mini garden where many insects come and go.
-                                So whenever I see one, I quickly take a photo of that.
-                            </p>
-                            <p>
-                                I have collected more than 50 different types of insect photos.
-                                Click the below button to see some of my photos.
+                                I have a mini garden where many insects come and go. I enjoy taking photos of them with my mobile phone, and I have collected more than 50 different types of insect photos. I am often asked if I took all of the photos with my phone, as they are of such high quality. You can click the button below to see some of my photos.
                             </p>
                             <div className="d-flex justify-content-center justify-content-md-start pb-2">
                                 <Button variant="outline-light" href="/insectphotography">More Insect Photos</Button>
@@ -98,8 +84,9 @@ export const Works = () => {
                     <div className="mt-3 d-sm-block d-lg-flex d-xl-flex d-md-flex">
                         <div>
                             <h2 className="mb-3">Certifications</h2>
-                            <p>I did some NPTEL certifications with my engineering course to enhance knowledge in various fields.</p>
-                            <p>I also got a Data Science Domain Certificate from NPTEL for completing courses in that particular field.</p>
+                            <p>
+                                I am a lifelong learner and I am always looking for ways to enhance my knowledge and skills. During my engineering coursework, I completed several NPTEL certifications in different fields, including data science. I am also a proud recipient of the Data Science Domain Certificate from NPTEL, which demonstrates my expertise in that field.
+                            </p>
                             <div className="d-flex justify-content-center justify-content-md-start pb-2">
                                 <Button variant="outline-light" href="/certifications">View Certificates</Button>
                             </div>

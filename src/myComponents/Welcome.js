@@ -10,9 +10,7 @@ export const Welcome = () => {
                 <h1 className="big-heading">Lakshman.</h1>
                 <h3 className="big-sub-heading" style={{ color: "#636e78" }}>Welcome to my Website.</h3>
                 <p className="welcomePara">
-                    I'm an Undergraduate Student in Computer Science field.
-                    I Love Building things using my knowledge.
-                    I love to learn more about new technologies.
+                    I am a software engineer with a passion for learning, innovation, and open source. I am always excited to experiment with new technologies and to learn new ways to grow my skills.
                 </p>
                 <div className="d-flex justify-content-end">
                     <Image className="customhero mr-sm-3" src="customhero.png" />

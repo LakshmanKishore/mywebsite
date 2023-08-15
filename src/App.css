@@ -161,11 +161,12 @@ a {
 
 .leftbarul li a:hover {
     transform: translateY(-3px);
+    /* color: #007bff; */
+    .icons{
+        color: #007bff;
+    }
 }
 
-.icons:hover {
-    color: #007bff;
-}
 
 .leftbarul:last-child {
     margin-bottom: 20px;

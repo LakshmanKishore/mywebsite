@@ -11,6 +11,11 @@ export const Leftbar = () => {
                         </a>
                     </li>
                     <li>
+                        <a href="https://kaggle.com/lakshman17">
+                            <span className="iconify icons" data-icon="cib:kaggle" data-inline="false"></span>
+                        </a>
+                    </li>
+                    <li>
                         <a href="https://www.sololearn.com/profile/15282029">
                             <span className="iconify icons" data-icon="simple-icons:sololearn" data-inline="false"></span>
                         </a>
