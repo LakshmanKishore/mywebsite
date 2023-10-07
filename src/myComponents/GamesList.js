@@ -8,12 +8,20 @@ import "../App.css";
 export const GamesList = () => {
     let games = [
         {
+            "gameNumber": 10,
+            "title": "Alquerque",
+            "github": "https://github.com/LakshmanKishore/alquerque",
+            "live": "https://dev.js13kgames.com/2023/games/alquerque",
+            "image": "https://raw.githubusercontent.com/LakshmanKishore/alquerque/main/images/battle.svg",
+            "desc": "This was an Entry to 2023 js13kgames competition, which got 72nd position out of 163 submissions.",
+        },
+        {
             "gameNumber": 0,
             "title": "Space",
             "github": "https://github.com/LakshmanKishore/space",
-            "live": "https://lakshman-space.surge.sh/",
+            "live": "https://dev.js13kgames.com/2021/games/space-game",
             "image": "https://raw.githubusercontent.com/LakshmanKishore/space/main/favicon.ico",
-            "desc": "This was an Entry to js13kgames competition",
+            "desc": "This was an Entry to 2021 js13kgames competition.",
         },
         {
             "gameNumber": 1,
@@ -98,7 +106,7 @@ export const GamesList = () => {
                     {games.map(({ gameNumber, title, github, live, image, desc }) => {
                         return (
                             <Card bg="dark" className="mx-2 mb-3 cardStyle" key={gameNumber}>
-                                <Card.Img variant="top" src={image} alt="GameImage" />
+                                <Card.Img variant="top" src={image} alt="GameImage" style={gameNumber==10?{background:"#dfd8c8"}:null} />
                                 <Card.Body>
                                     <Card.Title>{title}</Card.Title>
                                     <Card.Text>{desc}</Card.Text>
