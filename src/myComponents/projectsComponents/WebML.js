@@ -11,9 +11,9 @@ export const WebML = () => {
             "projectNumber": 0,
             "title": "Color Name Prediction",
             "github": "https://github.com/LakshmanKishore/colorNamePrediction",
-            "live": false,
-            "image": "https://raw.githubusercontent.com/LakshmanKishore/colorNamePrediction/main/static/favicon.ico",
-            "desc": "A Color Name prediciton application which gets the color Name of a particular region of the image.",
+            "live": "https://lakshmankishore.github.io/colorNamePrediction/",
+            "image": "https://raw.githubusercontent.com/LakshmanKishore/colorNamePrediction/main/favicon.ico",
+            "desc": "A Color Name prediction application which gets the Color Name of a particular region of the image.",
         },
         {
             "projectNumber": 1,
