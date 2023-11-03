@@ -35,8 +35,8 @@ export const WebML = () => {
             "projectNumber": 3,
             "title": "Iris Classification",
             "github": "https://github.com/LakshmanKishore/irisClassification",
-            "live": false,
-            "image": "https://raw.githubusercontent.com/LakshmanKishore/irisClassification/main/static/SETOSA.png",
+            "live": "https://lakshmankishore.github.io/irisClassification/",
+            "image": "https://raw.githubusercontent.com/LakshmanKishore/irisClassification/main/favicon.png",
             "desc": "A simple end to end ML application for iris flower name classification.",
         },
         {
