@@ -27,7 +27,7 @@ export const WebML = () => {
             "projectNumber": 2,
             "title": "Loan Prediction",
             "github": "https://github.com/LakshmanKishore/loanPrediction",
-            "live": false,
+            "live": "https://lakshmankishore.github.io/loanPrediction/",
             "image": "https://raw.githubusercontent.com/LakshmanKishore/loanPrediction/main/static/favicon.ico",
             "desc": "Loan Prediction app which takes input from user and predicts whether they will get Loan or not based on the trained Data.",
         },
