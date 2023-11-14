@@ -26,11 +26,6 @@ export const Leftbar = () => {
                         </a>
                     </li>
                     <li>
-                        <a href="https://leetcode.com/Lakshman_kishore/">
-                            <span className="iconify icons" data-icon="cib:leetcode" data-inline="false"></span>
-                        </a>
-                    </li>
-                    <li>
                         <a href="https://www.linkedin.com/in/lakshman-kishore-s-v-43a980224">
                         <span className="iconify icons" data-icon="eva:linkedin-outline" data-inline="false"></span>
                         </a>
