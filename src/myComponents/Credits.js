@@ -1,12 +1,13 @@
 import React from 'react';
 import "../App.css";
+import { Image } from 'react-bootstrap';
 
 export const Credits = () => {
     return (
         <div className="homePage pt-3">
             <div>
                 <div className="h1 my-0 heading">
-                    Credits.. 🙇
+                    Credits... 🙇
                     <span></span>
                 </div>
                 <hr />
@@ -25,6 +26,10 @@ export const Credits = () => {
                     <li>Version controlled with <a href="https://git-scm.com/">Git</a> and hosted on <a href="https://github.com/LakshmanKishore/mywebsite" target='_blank' rel='noopener noreferrer'>GitHub</a></li>
                     <li>Deployed seamlessly with <a href="https://vercel.com/" target='_blank' rel="noopener noreferrer">Vercel</a></li>
                 </ul>
+            </div>
+            <div className='pt-5'>
+                {/* Got the svg image from https://www.wordclouds.com/ */}
+                <Image className='w-100' src='wordcloud.svg' alt='Word Cloud' />
             </div>
         </div>
     )
