@@ -70,13 +70,13 @@ export const WebML = () => {
                                     <Card.Text>{desc}</Card.Text>
                                 </Card.Body>
                                 <Card.Footer>
-                                    <Button variant="outline-light" target="_blank" href={github} >
+                                    <Button variant="outline-light" target="_blank" rel="noopener noreferrer" href={github} >
                                         <span className="iconify" data-icon="bi:github"></span> {" "}
                                         Github
                                     </Button>
                                     {"   "}
                                     {live?
-                                    <Button variant="outline-light" target="_blank" href={live} >
+                                    <Button variant="outline-light" target="_blank" rel="noopener noreferrer" href={live} >
                                         <span className="iconify" data-icon="fluent:live-20-filled"></span> {" "}
                                         View Live
                                     </Button>

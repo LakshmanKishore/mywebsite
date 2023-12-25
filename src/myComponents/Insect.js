@@ -23,7 +23,7 @@ export const Insect = () => {
                     I have been taking insect photos for many years, and I have a deep appreciation for the beauty and diversity of these creatures. I hope you enjoy my photos
                 </p>
                 <p>
-                    Below images are some my samples, to see my Insectphotography album click <a href='https://photos.app.goo.gl/vLitde2QnuHMoFuz7' target="_blank">here</a>.
+                    Below images are some my samples, to see my Insectphotography album click <a href='https://photos.app.goo.gl/vLitde2QnuHMoFuz7' target="_blank" rel="noopener noreferrer">here</a>.
                 </p>
                 <br />
                 <Container>

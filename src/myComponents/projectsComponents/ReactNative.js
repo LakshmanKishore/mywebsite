@@ -36,7 +36,7 @@ export const ReactNative = () => {
                                     <Card.Text>{desc}</Card.Text>
                                 </Card.Body>
                                 <Card.Footer>
-                                    <Button variant="outline-light" target="_blank" href={github} >
+                                    <Button variant="outline-light" target="_blank" rel="noopener noreferrer" href={github} >
                                         <span className="iconify" data-icon="bi:github"></span> {" "}
                                         Github
                                     </Button>

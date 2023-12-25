@@ -106,18 +106,18 @@ export const GamesList = () => {
                     {games.map(({ gameNumber, title, github, live, image, desc }) => {
                         return (
                             <Card bg="dark" className="mx-2 mb-3 cardStyle" key={gameNumber}>
-                                <Card.Img variant="top" src={image} alt="GameImage" style={gameNumber==10?{background:"#dfd8c8"}:null} />
+                                <Card.Img variant="top" src={image} alt="GameImage" style={gameNumber===10?{background:"#dfd8c8"}:null} />
                                 <Card.Body>
                                     <Card.Title>{title}</Card.Title>
                                     <Card.Text>{desc}</Card.Text>
                                 </Card.Body>
                                 <Card.Footer>
-                                    <Button variant="outline-light" target="_blank" href={github} >
+                                    <Button variant="outline-light" target="_blank" rel="noopener noreferrer" href={github} >
                                         <span className="iconify" data-icon="bi:github"></span> {" "}
                                         Github
                                     </Button>
                                     {"   "}
-                                    <Button variant="outline-light" target="_blank" href={live} >
+                                    <Button variant="outline-light" target="_blank" rel="noopener noreferrer" href={live} >
                                         <span className="iconify" data-icon="fluent:live-20-filled"></span> {" "}
                                         Play Game
                                     </Button>
