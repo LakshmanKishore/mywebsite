@@ -1,7 +1,6 @@
 import React from 'react'
 import "../App.css";
 import { SocialLinks } from './SocialLinks';
-import { Link } from 'react-router-dom';
 
 export const Footer = () => {
     let d = new Date();
@@ -15,7 +14,7 @@ export const Footer = () => {
                 </div>
                 <small>Copyright &copy; {currentYear} Lakshman | Made with ❤️</small>
                 <br></br>
-                <Link to="/older-versions">View Older Versions</Link>
+                <a href="/older-versions">View Older Versions</a>
             </footer>
         </div>
     )
