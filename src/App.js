@@ -16,33 +16,37 @@ import { Leftbar } from "./myComponents/Leftbar";
 import { Rightbar } from "./myComponents/Rightbar";
 import { HomePage } from "./myComponents/HomePage";
 import { Certifications } from "./myComponents/Certifications";
+import { OlderVersions } from "./myComponents/OlderVersions";
 
 function App() {
   return (
     <div className="App bg-black">
       <Header />
-        <Leftbar />
-        <Rightbar />
-        <Router>
-          <Switch>
-            <Route path="/projects">
-              <Projects />
-            </Route>
-            <Route path="/games">
-              <Games />
-            </Route>
-            <Route path="/insectphotography">
-              <Insect />
-            </Route>
-            <Route path="/certifications">
-              <Certifications />
-            </Route>
-            <Route path="/">
-              <HomePage />
-            </Route>
-          </Switch>
-        </Router>
-      <Footer />
+      <Leftbar />
+      <Rightbar />
+      <Router>
+        <Switch>
+          <Route path="/projects">
+            <Projects />
+          </Route>
+          <Route path="/games">
+            <Games />
+          </Route>
+          <Route path="/insectphotography">
+            <Insect />
+          </Route>
+          <Route path="/certifications">
+            <Certifications />
+          </Route>
+          <Route path="/older-versions">
+            <OlderVersions />
+          </Route>
+          <Route path="/">
+            <HomePage />
+          </Route>
+        </Switch>
+        <Footer />
+      </Router>
     </div>
   );
 }
